@@ -1,0 +1,322 @@
+    body {
+    font-size: 1em;
+    color: #252122;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.logo {
+    width: 200px;
+}
+
+.iphone {
+    float: right;
+    width: calc(250px + 10vh);
+}
+
+.phone-container {
+    position: relative;
+}
+
+.blonde {
+    position: absolute;
+    z-index: -5;
+    width: calc(250px + 30vh);
+}
+
+.header-content {
+    background-image: url(../img/ABSTRACT-1a.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+button {
+    width: auto;
+    padding: 0;
+    border: 0;
+    background: 0;
+    font-size: 1em;
+    cursor: pointer;
+    
+}
+button:hover {
+    opacity: 0.6;
+}
+
+.header {
+    margin-top: 2%;
+}
+
+.cloud-img {
+    width: 40px;
+    padding-left: 5px;
+    display: inline-block;
+}
+
+.cloud-img a {
+    color: #00acc0;
+}
+
+.cloud-img a:visited {
+    color: red;
+}
+
+.link-top {
+    text-align: right;
+    padding-right: 50px;
+    font-weight: 500;
+}
+
+.bage-conteiner {
+    margin: 7% 0%;
+}
+
+.bage {
+    width: 250px;
+    margin: 1% 0 5px 10px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+h1 {
+    font-size: 2.9375em;
+    line-height: 1.15;
+    margin-bottom: 4%;
+    margin-top: 5vh;
+}
+
+h3 {
+    font-size: 1.875em;
+    line-height: 1.15;
+}
+
+.bg-2 {
+    background: #00acc0;
+    padding: 50px 0;
+    margin-top: -1px;
+    padding-bottom: 8%;
+}
+
+.link-color {
+    color: #00acc0;
+}
+
+.server-link {
+    padding: 5px 0px 20px 30px;
+    text-align: left;
+    display: block;
+    font-weight: 500;
+    font-size: 0.8em;
+    color: #a1a1a1;
+}
+
+h2 {
+    color: white;
+    font-size: 3em;
+    font-weight: 200;
+    line-height: 1.2;
+}
+
+.blocks {
+    margin-top: 30px;
+    color: white;
+}
+
+.block-heading {
+    font-size: 1.375em;
+    padding-bottom: 6px;
+}
+
+.infog-content {
+    line-height: 1.3;
+}
+
+.icon {
+    width: 60px;
+    float: left;
+}
+
+.img-block {
+    width: auto;
+    height: 60px;
+}
+
+.abstract-2 {
+    background-image: url(../img/Abstract-2.svg);
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cloud-block {
+    margin-top: -900px;
+}
+
+.cloud-content {
+    margin-top: 30%;
+}
+
+.cloud-content h1 {
+    padding-top: 15px;
+    padding-bottom: 20px
+}
+
+.clod-pictogram {
+    display: block;
+    float: left;
+    margin-right: 16px;
+    width: 75px;
+}
+
+.bottom-section {
+    height: 850px;
+    background-image: url(../img/sphere.svg);
+    background-repeat: no-repeat;
+    background-size: 850px;
+    background-position: 150px 600px;
+    margin-top: -850px;
+}
+
+footer {
+    color: #9e9e9e;
+    margin-top: 740px;
+    mix-blend-mode: screen;
+}
+
+.container {
+    z-index: -20;
+}
+
+.abstract-blend {
+    position: absolute;
+    opacity: 0.1;
+    top: 100%;
+    width: 100%;
+    right: 0;
+    transform: rotate(-10deg)
+}
+
+.abstract-blend-1 {
+    position: absolute;
+    top: 90%;
+    opacity: 0.1
+}
+.link-top {
+    text-align: right;
+    float: right;
+   
+}
+
+@media (max-width: 1200px) {
+    .iphone {
+        width: 90%;
+        padding-right: 20px
+    }
+    
+    .header-content {
+        height: auto;
+       
+    }
+    .blonde {
+       display: none;
+    }
+    .samsung {
+        width: 300px;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        font-size: 0.9em;
+    }
+    .blonde {
+      display: none;
+    }
+    .samsung {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .iphone {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-2 {
+        padding: 0;
+    }
+    .header-content {
+ margin-bottom: 30px;
+    }
+    .samsung {
+        width: 90%;
+            margin: 0 auto;
+    display: block;
+    }
+    .blonde {
+        display: none;
+    }
+    .header-content {
+        background: none;
+    }
+    .bage {
+        width: 180px;
+    }
+    .clear {
+        clear: none;
+    }
+    .link-top {
+        text-align: left;
+        float: left;
+        margin-top: 40px;
+    }
+    .img-block {
+        width: 80px;
+        margin: 0 auto;
+    }
+    .infoblock {
+        text-align: center;
+    }
+    .cloud-content {
+    margin-top: 10%;
+}
+    .clod-pictogram {
+        width: 50px;
+    }
+    .infographic {
+        margin-top: 50px;
+        float: left;
+        text-align: center;
+            margin-bottom: 50px;
+    }
+    .abstract-2 {
+        background-size: 300%;
+            background-position: -250px 00px;
+    }
+    footer {
+        margin-top: 870px;
+        margin-bottom: 20px;
+    }
+    
+    .bottom-section {
+ display: none;
+}
+    @media (max-width: 320px) {}
+
+
